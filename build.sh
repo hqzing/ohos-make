@@ -44,7 +44,7 @@ cp COPYING /opt/make-4.4-ohos-arm64/
 cd ..
 
 # Codesign
-/opt/ohos-sdk/ohos/toolchains/lib/binary-sign-tool sign -inFile /opt/make-4.4-ohos-arm64/bin/make -outFile /opt/make-4.4-ohos-arm64/bin/make -selfSign 1
+/opt/ohos-sdk/linux/toolchains/lib/binary-sign-tool sign -inFile /opt/make-4.4-ohos-arm64/bin/make -outFile /opt/make-4.4-ohos-arm64/bin/make -selfSign 1
 
 cd /opt/
 tar -zcf make-4.4-ohos-arm64.tar.gz make-4.4-ohos-arm64
